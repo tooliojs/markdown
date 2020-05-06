@@ -1,16 +1,27 @@
 {
   "name": "@toolio/markdown",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Markdown the Toolio way.",
   "main": "src/index.js",
   "scripts": {
     "test": "node test/index.js"
   },
   "keywords": [
-    "toolio"
+    "toolio",
+    "marked",
+    "sanitize"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tooliojs/markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tooliojs/markdown/issues"
+  },
+  "homepage": "https://github.com/tooliojs/markdown#readme",
   "dependencies": {
-    "marked": "^1.0.0"
+    "marked": "^1.0.0",
+    "sanitize-html": "^1.23.0"
   }
 }
