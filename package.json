@@ -1,0 +1,13 @@
+{
+  "name": "@toolio/markdown",
+  "version": "0.1.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "toolio"
+  ],
+  "license": "MIT"
+}
