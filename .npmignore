@@ -1,0 +1,9 @@
+.circleci/
+.github/
+.vscode/
+node_modules/
+test/
+package-lock*
+CHANGELOG*
+CODE_OF_CONDUCT*
+CONTRIBUTING*
