@@ -16,18 +16,17 @@ npm install @toolio/markdown
 
 ```js
 const markdownToHtml = require('@toolio/markdown')
-
-let markdown = `# Hello World
-Here is a paragraph with a [link](https://tooliojs.com)
-`
-
-// Sanitized
+let markdown = `# Hello World`
+```
+### Sanitized
+```js
 let html = markdownToHtml(markdown, {
     marked: {},
     sanitizeHtml: {}
 })
-
-// Not Sanitized
+```
+### Not Sanitized
+```js
 let html = markdownToHtml(markdown, { 
     marked: {}
 }, false)
